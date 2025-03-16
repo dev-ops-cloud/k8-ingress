@@ -42,7 +42,7 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:557690626059:certificate/f637dd69-fc09-43a6-a711-c5b82da1072d
-    alb.ingress.kubernetes.io/group.name: joindevops
+    alb.ingress.kubernetes.io/group.name: pallavi122
 spec:
   ingressClassName: alb
   rules:
